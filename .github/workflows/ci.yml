@@ -17,10 +17,9 @@ jobs:
       with:
         distribution: temurin
         java-version: '17'
-    - name: change to mvn dir
-      run: cd video-portal-backend
 
     - name: Build and Run Spotless Check
       run: |
+        cd video-portal-backend
         mvn clean install
         mvn spotless:check
