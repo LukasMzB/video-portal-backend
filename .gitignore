@@ -1,2 +1,3 @@
 /.metadata/
 video-portal-backend/target
+**/payara-resource.xml
