@@ -76,16 +76,6 @@
 			<scope>runtime</scope>
 		</dependency>
 
-		<!--        <dependency>  ADD HERE THE PROJECTS
-            <groupId>io.jsonwebtoken</groupId>
-		<artifactId>jjwt-api</artifactId>
-            <version>0.11.5</version>
-		</dependency>
-                <dependency>
-		<groupId>io.jsonwebtoken</groupId>
-            <artifactId>jjwt-impl</artifactId>
-		<version>0.11.5</version>
-        </dependency>
        <dependency>
 		<groupId>com.auth0</groupId>
             <artifactId>java-jwt</artifactId>
@@ -93,21 +83,15 @@
         </dependency>
 
 		<dependency>
-			<groupId>de.vs</groupId>
-			<artifactId>HA2_Martens_Teilnehmer_EJB</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-
-		<dependency>
-			<groupId>de.vs</groupId>
-			<artifactId>HA2_Martens_Kurs_EJB</artifactId>
+			<groupId>sp</groupId>
+			<artifactId>SP_Video_Portal_User_EJB</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
-			<groupId>de.vs</groupId>
-			<artifactId>HA2_Martens_User_EJB</artifactId>
+			<groupId>sp</groupId>
+			<artifactId>SP_Video_Portal_Video_EJB</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
-		</dependency>-->
+		</dependency>
 
 
 	</dependencies>
