@@ -46,7 +46,7 @@ public class Video {
             String metaData,
             int aufrufZaehler,
             Collection<Long> unterKategorien,
-            Thema kategorie) {
+            Thema thema) {
         super();
         this.videoId = id;
         this.titel = titel;
@@ -55,7 +55,7 @@ public class Video {
         this.metaData = metaData;
         this.aufrufZaehler = aufrufZaehler;
         this.unterKategorien = unterKategorien;
-        this.thema = kategorie;
+        this.thema = thema;
     }
 
     public Video(
@@ -154,8 +154,8 @@ public class Video {
         return thema;
     }
 
-    public void setKategorie(Thema kategorie) {
-        this.thema = kategorie;
+    public void setKategorie(Thema thema) {
+        this.thema = thema;
     }
 
     public Collection<Long> getUnterKategorien() {
