@@ -89,7 +89,7 @@ public class Video {
         videoTO.setAnzahlAufrufe(this.getAufrufZaehler());
         videoTO.setUnterKategorien(this.getUnterKategorien());
         videoTO.setName(this.thema.getName());
-        videoTO.setThema(this.getKategorie().toThemaTO());
+        videoTO.setThema(this.getThema().toThemaTO());
 
         return videoTO;
     }
@@ -150,12 +150,12 @@ public class Video {
         this.metaData = metaData;
     }
 
-    public Thema getKategorie() {
+    public Thema getThema() {
         return thema;
     }
 
-    public void setKategorie(Thema thema) {
-        this.thema = thema;
+    public void setThema(Thema kategorie) {
+        this.thema = kategorie;
     }
 
     public Collection<Long> getUnterKategorien() {
