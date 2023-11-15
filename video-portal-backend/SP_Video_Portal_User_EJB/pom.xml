@@ -60,6 +60,16 @@
 			<artifactId>ojdbc8</artifactId>
 			<version>21.7.0.0</version>
 		</dependency>
+		
+		
+			<!-- Postgres Treiber -->
+		
+			<dependency>
+		    <groupId>org.postgresql</groupId>
+		    <artifactId>postgresql</artifactId>
+		    <version>42.6.0</version>
+			</dependency>
+
 
 		<!-- JPA -->
 		<dependency>

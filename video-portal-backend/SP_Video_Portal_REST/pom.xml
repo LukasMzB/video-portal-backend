@@ -93,6 +93,14 @@
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 
+		<!-- Postgres Treiber -->
+		
+			<dependency>
+		    <groupId>org.postgresql</groupId>
+		    <artifactId>postgresql</artifactId>
+		    <version>42.6.0</version>
+			</dependency>
+
 
 	</dependencies>
 
